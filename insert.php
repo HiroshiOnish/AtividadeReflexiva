@@ -62,10 +62,15 @@ require_once "utils/header.php";
 		<br><br>
 		<label>Atividades Complementares:</label>
 		<input type="text" name="atividadescomplementares">
+		
+
+<form id="myForm">
+  <div id="lines"></div><label>Inserir Dados</label>
+  <button type="button" onclick="addInput('lines')">+</button>
+  <br><input type="submit" value="Verificar">
+  </form>
 		<br><br>
 		<button><button onclick="window.print()">Imprima ésta página</button></button>
-		<input type="submit" value="Salvar Cadastro">
-		<br>
 		<br>
 		</div>
 	</td>
@@ -74,6 +79,5 @@ require_once "utils/header.php";
 		<br><br><br><br><br><br><h2><center>Faça um Upgrade no Currículo</center></h2><img src="img/digitando.jpg" alt="auto" width="500" height="250"><br><br><br><br><br></td>
 </table>
 </form>
-</div>
 </body>
 <?php  require_once "utils/footer.php"?>
